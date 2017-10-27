@@ -7,7 +7,7 @@ var five = require("johnny-five");
 var dataPin = new Gpio(17, {mode: Gpio.OUTPUT})
 
 const board = new five.Board({
-        io: new raspi(),
+        io: new Raspi(),
 });
 
 
