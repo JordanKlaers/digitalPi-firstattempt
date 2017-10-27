@@ -3,7 +3,7 @@
 var Gpio = require('pigpio').Gpio
 var Raspi = require("raspi-io");
 var five = require("johnny-five");
-var pixel = require("./lib/pixel.js");
+var pixel = require("node-pixel");
 
 var dataPin = new Gpio(17, {mode: Gpio.OUTPUT})
 
