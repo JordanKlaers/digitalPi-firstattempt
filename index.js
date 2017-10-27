@@ -17,7 +17,6 @@ board.on("ready", function() {
     data: dataPin,
     length: 144, // number of pixels in the strip.
     board: this,
-    controller: "FIRMATA"
   });
 
 
